@@ -1,7 +1,24 @@
-/* colores para la pagina
-background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); 
-background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);*/
 
 .colorNav {
-    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    background: rgb(39, 15, 65) ;
+    filter: brightness(70%);
+}
+
+.videoInicio {
+    width: 100%;
+    min-height: 500px;
+}
+
+main {
+    background-color: black;
+}
+
+.altBannerPelis {
+    height: 560px;
+}
+
+.botonesInicio {
+    background: rgb(60, 103, 243) ;
+    filter: saturate(80);
+    color: white;
 }
