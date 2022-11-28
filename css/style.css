@@ -1,24 +1,43 @@
-
 .colorNav {
-    background: rgb(39, 15, 65) ;
-    filter: brightness(70%);
+  background: rgb(39, 15, 65);
+  filter: brightness(70%);
 }
 
 .videoInicio {
-    width: 100%;
-    min-height: 500px;
+  width: 100%;
+  min-height: 500px;
 }
 
 main {
-    background-color: black;
+  background-color: black;
+}
+
+footer {
+    background-color: rgb(8, 2, 19);
 }
 
 .altBannerPelis {
-    height: 560px;
+  height: 560px;
 }
 
 .botonesInicio {
-    background: rgb(60, 103, 243) ;
-    filter: saturate(80);
-    color: white;
+  background: rgb(60, 103, 243);
+  filter: saturate(80);
+  color: white;
+}
+
+.bgSubs {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #40103d 46%,
+    #2247a1 100%
+  );
+  border-radius: 100px;
+}
+
+.imgTam {
+    width: 11rem;
+    margin-top: 2%;
 }
